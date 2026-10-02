@@ -1,0 +1,6 @@
+{
+  "name": "Serena Diamond Bespoke",
+  "description": "High-end luxury ready-to-wear corporate attire and bespoke executive fashion for women in Lagos, Nigeria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

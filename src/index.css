@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  
+  --color-emerald-950: #04241B;
+  --color-emerald-900: #06392B;
+  --color-emerald-800: #064E3B;
+  --color-emerald-700: #097257;
+
+  --color-gold-300: #F3E5AB;
+  --color-gold-400: #E6CA85;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #C5A059;
+  --color-gold-700: #9B7D3B;
+
+  --color-alabaster-50: #FCFBF9;
+  --color-alabaster-100: #FAF9F5;
+  --color-alabaster-200: #F3EFE6;
+  --color-alabaster-300: #E7E2D5;
+}
+
+:root {
+  --bg-primary: #FAF9F5;
+  --bg-surface: #FFFFFF;
+  --bg-surface-elevated: #F3EFE6;
+  --border-primary: #E7E2D5;
+  --text-main: #1C1917;
+  --text-sub: #57534E;
+}
+
+.dark {
+  --bg-primary: #041812;
+  --bg-surface: #07231A;
+  --bg-surface-elevated: #0C3326;
+  --border-primary: #194334;
+  --text-main: #FAF9F6;
+  --text-sub: #C5D6CF;
+  color-scheme: dark;
+}
+
+/* Custom scrollbars and luxury selection */
+::selection {
+  background-color: #064E3B;
+  color: #F3E5AB;
+}
+
+.dark ::selection {
+  background-color: #10B981;
+  color: #041812;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Transitions for theme switching */
+body {
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
