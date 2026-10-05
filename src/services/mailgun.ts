@@ -12,12 +12,12 @@ export interface MailgunConfig {
 }
 
 export const DEFAULT_MAILGUN_CONFIG: MailgunConfig = {
-  apiKey: '',
-  keyId: '',
-  domain: '',
-  fromEmail: '',
-  defaultRecipientName: '',
-  defaultRecipientEmail: '',
+  apiKey: 'REMOVED_MAILGUN_KEY',
+  keyId: '7543e985-bb815cb5',
+  domain: 'sandboxe83f76628af84a1eb4c6d6c3d422a624.mailgun.org',
+  fromEmail: 'Mailgun Sandbox <postmaster@sandboxe83f76628af84a1eb4c6d6c3d422a624.mailgun.org>',
+  defaultRecipientName: 'EMMANUEL EFFIONG',
+  defaultRecipientEmail: 'zeerocodes@gmail.com',
 };
 
 export function getMailgunConfig(): MailgunConfig {

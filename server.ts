@@ -19,8 +19,8 @@ app.use('/images', express.static(path.resolve(__dirname, 'public', 'images')));
 app.use('/assets/images', express.static(path.resolve(__dirname, 'public', 'assets', 'images')));
 app.use('/src/assets/images', express.static(path.resolve(__dirname, 'src', 'assets', 'images')));
 
-const DEFAULT_MAILGUN_KEY = '';
-const DEFAULT_KEY_ID = '';
+const DEFAULT_MAILGUN_KEY = 'REMOVED_MAILGUN_KEY';
+const DEFAULT_KEY_ID = '7543e985-bb815cb5';
 
 // Mailgun info & verification endpoint for Admin Dashboard
 app.get('/api/mailgun/info', (_req, res) => {

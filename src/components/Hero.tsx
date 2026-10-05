@@ -74,7 +74,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCollection, onBookFitting }
               {/* Image Frame */}
               <div className="relative aspect-[4/5] sm:aspect-[3/4] overflow-hidden rounded-sm bg-stone-200 shadow-xl border border-stone-300">
                 <img
-                  src="/images/power_suit_1790935845976.jpg"
+                  src="/images/hero_executive_elegance_1790771201703.jpg"
                   alt="Serena Diamond Bespoke Nigerian Executive Woman in Emerald Power Suit"
                   className="w-full h-full object-cover object-top hover:scale-[1.02] transition-transform duration-700"
                   referrerPolicy="no-referrer"
