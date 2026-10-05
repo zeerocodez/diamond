@@ -14,7 +14,7 @@ import { User } from '../types';
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 export const auth = getAuth(app);
 
-export const GOOGLE_CLIENT_ID = '380833200439-12jkv21fhqjnog782of0qqoocomf8733.apps.googleusercontent.com';
+export const GOOGLE_CLIENT_ID = '521594802294-v8da4qqdv3cv8o16i9dlj328d6emt8i3.apps.googleusercontent.com';
 
 function parseJwt(token: string) {
   try {
